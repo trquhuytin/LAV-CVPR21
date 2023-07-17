@@ -1,9 +1,8 @@
 # Learning by Aligning Videos in Time (CVPR 2021)
 
-This repository contains the official implementation of our CVPR 2021 paper (https://openaccess.thecvf.com/content/CVPR2021/papers/Haresh_Learning_by_Aligning_Videos_in_Time_CVPR_2021_paper.pdf)
+This repository contains the official implementation of our CVPR 2021 paper (https://openaccess.thecvf.com/content/CVPR2021/papers/Haresh_Learning_by_Aligning_Videos_in_Time_CVPR_2021_paper.pdf).
 
-If you use the code, please cite
-
+If you use the code, please cite our paper:
 
 ```
 @inproceedings{haresh2021learning,
@@ -14,6 +13,7 @@ If you use the code, please cite
   year={2021}
 }
 ```
+For our recent works, please check out our research page (https://retrocausal.ai/research/).
 
 ## Installation
 Create an environment and install required packages
@@ -21,11 +21,11 @@ Create an environment and install required packages
 conda env create --name LAV --file=lav_env.yml
 conda activate LAV
 ```
-if you face any pytorch related issues during training, uninstall the pytorch first
+If you face any pytorch related issues during training, uninstall the pytorch first
 ```
 pip3 uninstall torch torchvision torchaudio
 ```
-Go to: https://pytorch.org/get-started/locally/ and install the suitable pytorch as per you machine requirements.
+Go to https://pytorch.org/get-started/locally/ and install the suitable pytorch as per you machine requirements.
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
