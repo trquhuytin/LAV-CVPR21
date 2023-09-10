@@ -33,7 +33,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ## Video-to-Frame Conversion
 
 ```
-python video_to_frames.py /50Salads/videos/
+python video_to_frames.py videos/
 ```
 
 ## Training/Testing Splits
